@@ -84,7 +84,7 @@ function etchASketch(numberOfDivs) {
 function addColor(e) {
 	let selectedColor;
 
-	if (rainbow.checked) {
+	if (rainbow.checked && !eraser.checked) {
 		let rgbValue = rgb();
 
 		selectedColor = rgbValue;

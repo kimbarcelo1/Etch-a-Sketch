@@ -15,3 +15,5 @@ A mini drawing tool using JS event listeners.
 6. https://www.w3schools.com/tags/att_input_type_color.asp
 
 7. https://www.w3schools.com/tags/att_input_type_checkbox.asp
+
+Note: I created this project in a different laptop and just commited it as a whole when I had my laptop again.
