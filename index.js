@@ -50,9 +50,6 @@ function etchASketch(numberOfDivs) {
 		div.classList = "item";
 		div.style.flexBasis = `calc(100% / ${numberOfDivs})`;
 
-		// Source - https://stackoverflow.com/a/4211930
-		// Posted by alex, modified by community. See post 'Timeline' for change history
-		// Retrieved 2026-07-16, License - CC BY-SA 3.0
 		div.ondragstart = function () { return false; }; // to remove the drag ghost
 
 		div.addEventListener("mousedown", (e) => {
@@ -108,10 +105,6 @@ function rgb() {
 
 	return `rgb(${r}, ${g}, ${b})`;
 }
-
-// Source - https://stackoverflow.com/a/77666766
-// Posted by SmartDev
-// Retrieved 2026-07-16, License - CC BY-SA 4.0
 
 function handleDownload() {
   const divElement = document.querySelector("#container");
