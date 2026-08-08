@@ -89,7 +89,6 @@ function addColor(e) {
 		let rgbValue = rgb();
 
 		selectedColor = rgbValue;
-		colorPicker.value = rgbValue;
 	}
 	else {
 		selectedColor = colorPicker.value;
