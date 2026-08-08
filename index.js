@@ -62,7 +62,11 @@ function etchASketch(numberOfDivs) {
 			addColor(e);
 		});
 
-		div.addEventListener("mousemove", (e) => {
+		div.addEventListener("mousedown", (e) => {
+			addColor(e);
+		});
+
+		div.addEventListener("mouseover", (e) => {
 			if (drawState) {
 				addColor(e);
 			}
